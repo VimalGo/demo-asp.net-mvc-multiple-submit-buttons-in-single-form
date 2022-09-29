@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Multiple Submit Buttons With JQuery Or Javascript Code";
+}
+
+<h1>Multiple Submit Buttons With JQuery Or Javascript Code</h1>
+
+@using (Html.BeginForm())
+{
+    <br />
+    <input type="submit" id="save" value="Save" />
+    <input type="submit" id="cancel" value="Cancel" />
+    <br />
+    <br />
+    @ViewBag.Message
+}
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#save").click(function () {
+		        $("form").attr("action", "/MultipleSubmitButtons/SaveFormJQueryCode");
+		    });
+
+		    $("#cancel").click(function () {
+			    $("form").attr("action", "/MultipleSubmitButtons/CancelFormJQueryCode");
+		    });
+
+        });
+    </script>
+}

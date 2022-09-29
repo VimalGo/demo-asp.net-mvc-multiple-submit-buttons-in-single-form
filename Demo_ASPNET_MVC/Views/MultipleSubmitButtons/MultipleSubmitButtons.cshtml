@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Multiple Submit Buttons In Single Forms";
+}
+
+<h1>Multiple Submit Buttons In Single Forms</h1>
+
+<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+    <ul class="navbar-nav flex-grow-1">
+        <li class="nav-item">
+            <a  asp-area="" asp-controller="MultipleSubmitButtons" asp-action="WithDifferentSubmitButtonsNames">Multiple Submit Buttons With Different Submit Buttons Names</a>
+        </li>
+        <li class="nav-item">
+            <a  asp-area="" asp-controller="MultipleSubmitButtons" asp-action="WithSameSubmitButtonsNames">Multiple Submit Buttons With Same Submit Buttons Names</a>
+        </li>
+        <li class="nav-item">
+            <a  asp-area="" asp-controller="MultipleSubmitButtons" asp-action="WithFormActionAndFormMethodHTML5Attributes">Multiple Submit Buttons With FormAction And FormMethod HTML5 Attributes</a>
+        </li>
+        <li class="nav-item">
+            <a  asp-area="" asp-controller="MultipleSubmitButtons" asp-action="WithJQueryOrJavascriptCode">Multiple Submit Buttons With JQuery Or Javascript Code</a>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,1 @@
+F:\My Data\My Projects\5.Practice Projects\demo-asp.net-mvc-multiple-submit-buttons-in-one-form\Multiple.Submit.Buttons.In.Single.Form\Multiple.Submit.Buttons.In.Single.Form\obj\Debug\net6.0\Multiple.Submit.Buttons.In.Single.Form.GeneratedMSBuildEditorConfig.editorconfig

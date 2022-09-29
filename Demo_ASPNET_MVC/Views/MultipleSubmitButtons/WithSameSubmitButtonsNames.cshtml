@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Multiple Submit Buttons With Same Submit Buttons Names";
+}
+
+<h1>Multiple Submit Buttons With Same Submit Buttons Names</h1>
+
+@using (Html.BeginForm("WithSameSubmitButtonsNames", "MultipleSubmitButtons", FormMethod.Post))
+{
+    <br />
+    <input type="submit" name="submit" value="Save" />
+    <input type="submit" name="submit" value="Cancel" />
+    <br />
+    <br />
+    @ViewBag.Message
+}
